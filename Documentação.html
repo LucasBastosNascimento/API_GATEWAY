@@ -1,0 +1,40 @@
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <style>
+        body {
+            color: #333;
+            font-family: Sans-serif;
+            max-width: 800px;
+            margin: auto;
+        }
+        </style>
+    </head>
+    <body>
+        <h1>Coleção de Fotos API</h1>
+        <p>
+            A API Coleção de Fotos contem os seguintes recursos:
+        </p>
+        <p>
+            Consulta pelo ID da foto. Metodo <code>GET</code> <code>/fotos/{id}</code>
+        </p>
+        <pre>
+            Exemplo:
+            <code>fotos/1</code>
+        </pre>
+        <p>
+            Consulta pelo ASSUNTO da foto. Metodo <code>GET</code> <code>/fotos/assunto</code>
+        </p>
+        <pre>
+            Exemplo:
+            <code>fotos/assunto?nome=batman</code>
+        </pre>
+        <p>
+            Consulta por ASSUNTO e COLECAO. Metodo <code>GET</code> <code>/fotos/consulta</code>
+        </p>
+        <pre>
+            Exemplo:
+            <code>/fotos/consulta?assunto=batman&colecao=dc</code>
+        </pre>
+    </body>
+</html>
